@@ -4,7 +4,7 @@ export type Theme = "light" | "dark";
 
 const themeSlice = createSlice({
   name: "@@theme",
-  initialState: "light" as Theme,
+  initialState: "dark" as Theme,
   reducers: {
     setTheme: (_, action: PayloadAction<Theme>) => action.payload,
   },
